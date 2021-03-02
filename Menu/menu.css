@@ -20,6 +20,7 @@ h1 {
 #menuNav_abrir {
     display: inline-block;
     position: absolute;
+    width: 250px;
     top:0px;
     right: 0%;
     padding: 50px 30px 10px 10px;
@@ -40,7 +41,7 @@ h1 {
     z-index: 1;
     position: absolute;
     top: 20px;
-    right: 140px;
+    right: 200px;
     cursor: pointer;
 }
 
@@ -62,7 +63,11 @@ ul li {
 }
 
 #projetos_abrir {
+    position: relative;
+    left: 40px;
     display: inline-block;
+    padding: 0px;
+    margin: 0px;
 }
 
 a {
@@ -71,4 +76,17 @@ a {
 
 #projetos_abrir li {
     list-style: decimal;
+}
+
+ul li a {
+    color: black;
+}
+
+#projetos_abrir li a:hover {
+    color: rgb(13, 61, 70);
+    font-weight: bold;
+}
+
+#outrosProjetos {
+    text-decoration: underline;
 }
